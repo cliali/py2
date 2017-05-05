@@ -25,7 +25,7 @@ from telebot import types
 import sys
 reload(sys)
 sys.setdefaultencoding("utf-8")
-token = '276126676:AAH6FtkZF02IgHbVT0xFVviq8sM5HkSE0Ao' #توکن شما
+token = '277679081:AAGk3IXlId9PKUn3n_5wrfrUIR_mgsUVCeE' #توکن شما
 bot = telebot.TeleBot(token)
 redis = redis.StrictRedis(host='localhost', port=6379, db=0, decode_responses=True)
 is_sudo = '242361127' #ایدی شما
